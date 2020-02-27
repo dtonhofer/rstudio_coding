@@ -26,7 +26,7 @@ Sample statistics are indicated.
 
 Sampling statistics are indicated
 
-![Histogram of sample statistics](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/pdf_of_ames_area_randvar_for_single_sample.png)
+![Histogram of sample statistics](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/histogram_of_mean_over_samples_of_ames_area_randvar.png)
 
 ## Empirically testing the confidence interval
 
@@ -46,28 +46,35 @@ How much "approximate" is "approximately", which is beset by noise due to random
 and noise due to use of approximating values, in particular the sample mean and the sample
 standard deviation.
 
-This test says it's not bad:
+This test says it's "not bad":
 
 ````
 empiricially_test_confidence_interval(sample_size=100, confidence=0.90, trial_count=500)
-empiricially_test_confidence_interval(sample_size=100, confidence=0.95, trial_count=500)
-empiricially_test_confidence_interval(sample_size=100, confidence=0.98, trial_count=500)
-empiricially_test_confidence_interval(sample_size=100, confidence=0.99, trial_count=500)
 ````
-
-yields:
 
 > At confidence level 90% and sample size 100
 > the proportion of samples (of 500 samples) with
 > population mean inside their confidence interval is: 0.906
 
+````
+empiricially_test_confidence_interval(sample_size=100, confidence=0.95, trial_count=500)
+````
+
 > At confidence level 95% and sample size 100
 > the proportion of samples (of 500 samples) with 
 > population mean inside their confidence interval is: 0.952
 
+````
+empiricially_test_confidence_interval(sample_size=100, confidence=0.98, trial_count=500)
+````
+
 > At confidence level 98% and sample size 100
 > the proportion of samples (of 500 samples) with
 > population mean inside their confidence interval is: 0.976
+
+````
+empiricially_test_confidence_interval(sample_size=100, confidence=0.99, trial_count=500)
+````
 
 > At confidence level 99% and sample size 100
 > the proportion of samples (of 500 samples) with
@@ -76,12 +83,6 @@ yields:
 ## Code to generate plots
 
 - Basis: [confidence_interval_base.r](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/code/confidence_interval_base.r)
-- Functions to create plots: [confidence_interval_top.r](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/code/confidence_interval_top.r)
-- The code to execute in RStudio, it calls the above: [confidence_interval_cmd.r](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/code/confidence_interval_cmd.r)
-
-
-
--
--
--
+- Functions to create the plots, calls the above: [confidence_interval_top.r](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/code/confidence_interval_top.r)
+- The code to execute in R/RStudio, loads and calls the above: [confidence_interval_cmd.r](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/code/confidence_interval_cmd.r)
 
