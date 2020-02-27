@@ -1,4 +1,4 @@
-# Coursera "Statistics with R" C2W1: Load some libraries into R
+# "Statistics with R" C2W1: Load some libraries into R
 
 Principle: write a function, then call it!
 
