@@ -4,6 +4,8 @@
 
 ![Confidence interval pipeline graph](https://raw.githubusercontent.com/dtonhofer/diagrams/master/RStudio_Exercises/Confidence_Interval_Pipeline/confidence_interval_pipeline.png)
 
+The above has been edited with yEd (a bit basic but sufficient). Here is the ![graphml raw file](https://raw.githubusercontent.com/dtonhofer/diagrams/master/RStudio_Exercises/Confidence_Interval_Pipeline/confidence_interval_pipeline.graphml).
+
 ## Plots based on the "ames" dataset
 
 ### Histogram and PDF over the whole of the population
@@ -24,7 +26,10 @@ Sample statistics are indicated.
 
 ### Histogram of means computed from many samples
 
-Sampling statistics are indicated
+Sampling statistics are indicated.
+
+Note that the overlaid Gaussian is the "limit Gaussian" postulated by the CLT, centered at the population mean. It is
+not centered at the sample mean (the red line enclosed by the dashed-blue 1-stddev interval)!
 
 ![Histogram of sample statistics](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/histogram_of_mean_over_samples_of_ames_area_randvar.png)
 
