@@ -23,7 +23,7 @@ Sample statistics are indicated.
 
 ![Histogram, single sample](%PLOTS%/histogram_of_ames_area_randvar_for_single_sample.png)
 
-![PDF, single sample](%PLOTS%/plots/pdf_of_ames_area_randvar_for_single_sample.png)
+![PDF, single sample](%PLOTS%/pdf_of_ames_area_randvar_for_single_sample.png)
 
 ### Histogram of means computed from many samples
 
@@ -32,7 +32,7 @@ Sampling statistics are indicated.
 Note that the overlaid Gaussian is the "limit Gaussian" postulated by the CLT, centered at the population mean. It is
 not centered at the sample mean (the red line enclosed by the dashed-blue 1-stddev interval)!
 
-![Histogram of sample statistics](%PLOTS%/plots/histogram_of_mean_over_samples_of_ames_area_randvar.png)
+![Histogram of sample statistics](%PLOTS%/histogram_of_mean_over_samples_of_ames_area_randvar.png)
 
 ## Empirically testing the confidence interval
 
