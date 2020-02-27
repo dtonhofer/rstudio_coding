@@ -2,8 +2,8 @@
 
 ## Prepare
 
-- Load libraries according to [this gist](https://gist.github.com/dtonhofer/408a6c15ee4d171fd9314113660cd312).
-- Load "ames" dataset according to [this gist](https://gist.github.com/dtonhofer/5b14680401823826120c7bebcdccb8f7).
+- Load libraries according to [this description](%USEFUL%/load_some_libraries.md).
+- Load "ames" dataset according to [this description](%USEFUL%/load_ames_dataset.md).
 
 ## A quick histogram of the property area values
 
@@ -16,7 +16,7 @@ ggplot(data = ames_area, aes(x = area), title="area (feet²)") +
      labs(x="property area (feet²)", title="Property transactions in Ames, Iowa, 2006-2010")
 ````    
 
-![property transactions in ames.png]($WHERE$/property_transactions_in_ames.png)
+![property transactions in ames.png](%PLOTS%/property_transactions_in_ames.png)
 
 ## Smoothing the property area values into a Probability Density Function
 
@@ -77,7 +77,7 @@ plot_overlaid <- function(ames_area_pdf,ames_area,binwidth) {
 plot_overlaid(ames_area_pdf,ames_area,250)
 ````    
 
-![property transactions in ames overlaid pdf]($WHERE$/property_transactions_in_ames_overlaid_pdf.png)
+![property transactions in ames overlaid pdf](%PLOTS%/property_transactions_in_ames_overlaid_pdf.png)
 
 
 ## Highlight values
@@ -137,7 +137,7 @@ plot_overlaid_extras <- function(ames_area_pdf,ames_area,binwidth) {
 plot_overlaid_extras(ames_area_pdf,ames_area,250)
 ````
 
-![property transactions in ames overlaid pdf lines]($WHERE$/property_transactions_in_ames_overlaid_pdf_lines.png)
+![property transactions in ames overlaid pdf lines](%PLOTS%/property_transactions_in_ames_overlaid_pdf_lines.png)
 
 Still looks a bit inelegant.
 
