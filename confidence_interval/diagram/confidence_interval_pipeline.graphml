@@ -270,7 +270,7 @@ SAMPLE_SIZE "ames" dataset individuals</y:NodeLabel>
     <node id="n5">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="93.125" width="131.5625" x="2601.5655924479165" y="-250.34407552083422"/>
+          <y:Geometry height="93.125" width="131.5625" x="2655.759123389238" y="-250.34407552083422"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="50.5625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.931640625" x="41.3154296875" y="21.28125">CLT
@@ -287,7 +287,7 @@ says<y:LabelModel>
     <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="249.953125" width="496.5625" x="2847.0714518229165" y="-328.7581380208342"/>
+          <y:Geometry height="249.953125" width="496.5625" x="2473.259123389238" y="683.5388183593739"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="213.53125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="430.919921875" x="4.0" y="18.2109375">The PDF of MEAN_AREA_OVER_SAMPLE is "well approximated" 
@@ -460,7 +460,7 @@ of which there are only a
     <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="304.6406249999999" width="502.4190952143145" x="-576.8970476071572" y="966.5976562499986"/>
+          <y:Geometry height="91.76594719156412" width="494.6071804323535" x="-528.3955078125" y="925.9602050781241"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
@@ -471,7 +471,7 @@ of which there are only a
     <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="335.8911132812499" width="502.4190952143145" x="-576.8970476071572" y="1288.730957031249"/>
+          <y:Geometry height="99.58069112693113" width="494.6071804323535" x="-528.3955078125" y="1036.7967053130083"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="481.2578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
@@ -607,7 +607,7 @@ on the new individuals</y:NodeLabel>
           <y:Geometry height="74.5" width="230.0" x="1967.0278320312495" y="355.7602539062486"/>
           <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="183.4140625" x="23.29296875" y="21.28125">SAMPLECOUNT values of
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="183.4140625" x="23.29296875" y="21.28125">SAMPLE_COUNT values of
 MEAN_AREA_OVER_SAMPLE(i)</y:NodeLabel>
         </y:GenericNode>
       </data>
@@ -638,10 +638,10 @@ STDDEV_AREA_OVER_SAMPLE(i)</y:NodeLabel>
     <node id="n27">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="185.0313815132375" width="269.0625" x="2532.8155924479165" y="-58.16992187500182"/>
+          <y:Geometry height="195.9916992187508" width="401.25" x="2520.915373389238" y="-58.16992187500182"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="384.0625" x="4.0" y="13.687565756618767">Conditions
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="384.0625" x="4.0" y="19.167724609375398">Conditions
 ▶ Independence: Sampled observations must be independent, 
    i.e. have no hidden correlations.
    ▶ Random sample/assignment
@@ -756,7 +756,7 @@ selected from a PDF that is:
     <node id="n34">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="53.0" width="496.5625" x="2847.0714518229165" y="-78.80501302083422"/>
+          <y:Geometry height="53.0" width="496.5625" x="2473.259123389238" y="933.4919433593739"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="419.107421875" x="38.7275390625" y="17.515625">STDDEV_MEAN_AREA_OVER_SAMPLE is called the STANDARD ERROR</y:NodeLabel>
@@ -766,8 +766,8 @@ selected from a PDF that is:
     <node id="n35">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="265.578125" width="532.1875" x="1092.78759765625" y="1731.973388671874"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:Geometry height="265.578125" width="532.1875" x="1779.3816702895365" y="1363.9742431640614"/>
+          <y:Fill color="#00FF00" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="241.46875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="504.853515625" x="4.0" y="12.0546875">And then we can say:
 
@@ -792,7 +792,7 @@ variable replacement and other sources ... how much is it, really?</y:NodeLabel>
     <node id="n36">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="304.6406249999999" width="465.31249999999994" x="406.565673828125" y="997.9294433593741"/>
+          <y:Geometry height="82.50000000000011" width="494.60718043235346" x="415.280517578125" y="988.1645498819228"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
@@ -803,7 +803,7 @@ variable replacement and other sources ... how much is it, really?</y:NodeLabel>
     <node id="n37">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="335.8911132812499" width="465.31249999999994" x="406.565673828125" y="1320.0627441406245"/>
+          <y:Geometry height="91.76594719156412" width="494.60718043235346" x="415.280517578125" y="1090.899656404472"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="482.67578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
@@ -817,7 +817,7 @@ constructed using some smoothing kernel
     <node id="n38">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="304.6406249999999" width="465.31249999999994" x="1849.3715820312495" y="989.4746093749991"/>
+          <y:Geometry height="93.47480355011805" width="543.4316478196097" x="1849.3715820312495" y="989.4746093749991"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
@@ -828,7 +828,7 @@ constructed using some smoothing kernel
     <node id="n39">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="335.8911132812499" width="465.31249999999994" x="1849.3715820312495" y="1311.6079101562495"/>
+          <y:Geometry height="102.75428150710275" width="543.4316478196097" x="1849.3715820312495" y="1134.3562011718743"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="523.796875" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
@@ -842,7 +842,7 @@ constructed using some smoothing kernel
     <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="123.125" width="301.25" x="1706.1313476562502" y="1803.199951171874"/>
+          <y:Geometry height="123.125" width="301.25" x="2392.7254202895365" y="1435.2008056640614"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.794921875" x="4.0" y="3.6875">Exercise: 
@@ -855,33 +855,6 @@ effectively have MEAN_AREA_OVER_POP
 lying inside thewir confidence intervals 
 </y:NodeLabel>
         </y:GenericNode>
-      </data>
-    </node>
-    <node id="n41">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="304.6406249999999" width="465.31249999999994" x="2050.993164062499" y="1712.4421386718743"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.0" y="4.0"/>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n42">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="53.0" width="311.25" x="-693.7624903920062" y="-377.8297463489628"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.5234375" x="74.86328125" y="17.515625">Version 2020-02-25-17:00<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-        </y:ShapeNode>
       </data>
     </node>
     <edge id="e0" source="n23" target="n24">
@@ -921,10 +894,15 @@ lying inside thewir confidence intervals
     <edge id="e2" source="n5" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="2987.9185685625725" y="-203.78157552083422"/>
+            <y:Point x="2987.9185685625725" y="251.38837240266264"/>
+            <y:Point x="2879.2078403956357" y="251.38837240266264"/>
+            <y:Point x="2721.540373389238" y="251.38837240266264"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -1183,7 +1161,7 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e23" source="n3::n0" target="n25">
+    <edge id="e23" source="n3::n0" target="n23">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1192,16 +1170,7 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e24" source="n3::n0" target="n23">
-      <data key="d10">
-        <y:QuadCurveEdge straightness="0.1">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-        </y:QuadCurveEdge>
-      </data>
-    </edge>
-    <edge id="e25" source="n5" target="n27">
+    <edge id="e24" source="n5" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1211,7 +1180,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n24" target="n28">
+    <edge id="e25" source="n24" target="n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1221,7 +1190,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n28" target="n4">
+    <edge id="e26" source="n28" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1231,7 +1200,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n6" target="n4::n0">
+    <edge id="e27" source="n6" target="n4::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1243,19 +1212,17 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n6" target="n4::n1">
+    <edge id="e28" source="n6" target="n4::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="2561.5838216145826" y="872.554443359374"/>
-          </y:Path>
+          <y:Path sx="-159.9565517746555" sy="64.03906250000011" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n2::n0" target="n30">
+    <edge id="e29" source="n2::n0" target="n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1269,7 +1236,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n30" target="n29">
+    <edge id="e30" source="n30" target="n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1283,7 +1250,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n29" target="n32">
+    <edge id="e31" source="n29" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1293,7 +1260,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n32" target="n33">
+    <edge id="e32" source="n32" target="n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1303,7 +1270,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n33" target="n31">
+    <edge id="e33" source="n33" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1313,7 +1280,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n31" target="n35">
+    <edge id="e34" source="n31" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1323,12 +1290,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n12" target="n14">
+    <edge id="e35" source="n12" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-682.0652573529413" y="377.9780273437495"/>
-            <y:Point x="-682.0652573529413" y="1118.9179687499986"/>
+            <y:Point x="-573.6749397532332" y="377.9780273437495"/>
+            <y:Point x="-573.6749397532332" y="971.8431786739061"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1336,12 +1303,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n12" target="n15">
+    <edge id="e36" source="n12" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-699.6433823529413" y="377.9780273437495"/>
-            <y:Point x="-699.6433823529413" y="1456.676513671874"/>
+            <y:Point x="-573.6749397532332" y="377.9780273437495"/>
+            <y:Point x="-573.6749397532332" y="1089.2588210361894"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1349,12 +1316,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n19" target="n36">
+    <edge id="e37" source="n19" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="305.4999999999998" y="378.9477539062486"/>
-            <y:Point x="305.4999999999998" y="1150.249755859374"/>
+            <y:Point x="363.11287151696183" y="378.9477539062486"/>
+            <y:Point x="363.11287151696183" y="1029.4145498819228"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1362,12 +1329,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n19" target="n37">
+    <edge id="e38" source="n19" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="282.0624999999998" y="378.9477539062486"/>
-            <y:Point x="282.0624999999998" y="1488.0083007812495"/>
+            <y:Point x="363.11287151696183" y="378.9477539062486"/>
+            <y:Point x="363.11287151696183" y="1136.782630000254"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1375,12 +1342,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n24" target="n38">
+    <edge id="e39" source="n24" target="n38">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1778.5429687499998" y="393.0102539062486"/>
-            <y:Point x="1778.5429687499998" y="1141.794921874999"/>
+            <y:Point x="1798.6220309630087" y="393.0102539062486"/>
+            <y:Point x="1798.6220309630087" y="1036.212011150058"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1388,12 +1355,12 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n24" target="n39">
+    <edge id="e40" source="n24" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1753.1523437499998" y="393.0102539062486"/>
-            <y:Point x="1753.1523437499998" y="1479.5534667968745"/>
+            <y:Point x="1798.9252819255523" y="393.0102539062486"/>
+            <y:Point x="1798.9252819255523" y="1185.7333419254257"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1401,11 +1368,11 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n35" target="n40">
+    <edge id="e41" source="n35" target="n40">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1660.5" y="1864.762451171874"/>
+            <y:Point x="2347.0940726332865" y="1496.7633056640614"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1413,13 +1380,16 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n40" target="n41">
+    <edge id="e42" source="n3::n0" target="n25">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="2082.0278320312495" y="191.99750030285867"/>
+            <y:Point x="2418.5330403645826" y="191.99750030285867"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
