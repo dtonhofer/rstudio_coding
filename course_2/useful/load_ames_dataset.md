@@ -1,4 +1,4 @@
-# Coursera "Statistics with R" C2W1: Load the "ames" dataset
+# "Statistics with R" C2W1: Load the "ames" dataset
 
 The dataset used for Course 2, Week 1:
 
