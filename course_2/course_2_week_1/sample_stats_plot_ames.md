@@ -167,7 +167,7 @@ plot_ames_sample_statistics(sample_size = 50,
                             ames_area, hg_binwidth = 20, x_limit = 2000)
 ````
 
-![500 samples of 50 transactions]($WHERE$/ames_dataset_sample_statistics_plot__500_samples_of_50_transactions.png)
+![500 samples of 50 transactions](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/ames_dataset_sample_statistics_plot__500_samples_of_50_transactions.png)
 
 ### Sample size 100
 
@@ -177,7 +177,7 @@ plot_ames_sample_statistics(sample_size = 100,
                             ames_area, hg_binwidth = 20, x_limit = 2000)
 ````
 
-![500 samples of 100 transactions](%plots%/ames_dataset_sample_statistics_plot__500_samples_of_100_transactions.png)
+![500 samples of 100 transactions](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/ames_dataset_sample_statistics_plot__500_samples_of_100_transactions.png)
 
 ### Sample size 200
 
@@ -187,6 +187,6 @@ plot_ames_sample_statistics(sample_size = 200,
                             ames_area, hg_binwidth = 20, x_limit = 2000)
 ````
 
-![500 samples of 200 transactions](%plots%/ames_dataset_sample_statistics_plot__500_samples_of_200_transactions.png)
+![500 samples of 200 transactions](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/ames_dataset_sample_statistics_plot__500_samples_of_200_transactions.png)
 
 
