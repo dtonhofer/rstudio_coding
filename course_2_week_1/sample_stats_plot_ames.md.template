@@ -1,4 +1,4 @@
-# Coursera "Statistics with R" C2W1: Plotting the distribution of sample statistics of "area" of the "ames" dataset
+# Plotting the distribution of sample statistics of "area" of the "ames" dataset
 
 We want to plot:
 

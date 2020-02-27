@@ -1,4 +1,4 @@
-# Coursera "Statistics with R" C2W1: Plotting the PDF of "area" of the "ames" dataset
+# Plotting the PDF of "area" of the "ames" dataset
 
 ## Prepare
 
