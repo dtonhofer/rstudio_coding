@@ -16,7 +16,7 @@ ggplot(data = ames_area, aes(x = area), title="area (feet²)") +
      labs(x="property area (feet²)", title="Property transactions in Ames, Iowa, 2006-2010")
 ````    
 
-![property transactions in ames.png](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2_week_1/plots/property_transactions_in_ames.png)
+![property transactions in ames.png](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/property_transactions_in_ames.png)
 
 ## Smoothing the property area values into a Probability Density Function
 
@@ -77,7 +77,7 @@ plot_overlaid <- function(ames_area_pdf,ames_area,binwidth) {
 plot_overlaid(ames_area_pdf,ames_area,250)
 ````    
 
-![property transactions in ames overlaid pdf](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2_week_1/plots/property_transactions_in_ames_overlaid_pdf.png)
+![property transactions in ames overlaid pdf](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/property_transactions_in_ames_overlaid_pdf.png)
 
 
 ## Highlight values
@@ -137,7 +137,7 @@ plot_overlaid_extras <- function(ames_area_pdf,ames_area,binwidth) {
 plot_overlaid_extras(ames_area_pdf,ames_area,250)
 ````
 
-![property transactions in ames overlaid pdf lines](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2_week_1/plots/property_transactions_in_ames_overlaid_pdf_lines.png)
+![property transactions in ames overlaid pdf lines](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/course_2_week_1/plots/property_transactions_in_ames_overlaid_pdf_lines.png)
 
 Still looks a bit inelegant.
 
