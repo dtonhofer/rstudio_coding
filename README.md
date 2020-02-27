@@ -1,5 +1,10 @@
-# rstudio_coding
-Some code for the "Statistics with R" course
+# "Statistics with R" coding attempts
 
-Very much "under construction"
+Some code for the Coursera "Statistics with R" specialization course as organized by Duke University:
+
+[Statistics with R Specialization](https://www.coursera.org/specializations/statistics)
+
+This repository will change often!
+
+
 
