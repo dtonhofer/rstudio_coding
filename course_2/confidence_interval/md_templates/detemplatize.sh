@@ -7,7 +7,7 @@ for file in description.md; do
    if [[ ! -f $template ]]; then
       echo "No file '$template' -- skipping" >&2
    else
-      sed 's/\$PLOTS\$/https:\/\/raw.githubusercontent.com\/dtonhofer\/rstudio_coding\/master\/course_2\/plots/g' \
+      sed 's/\$WHERE\$/https:\/\/raw.githubusercontent.com\/dtonhofer\/rstudio_coding\/master\/course_2/g' \
       < "$template" > "../$file"
    fi
 done
