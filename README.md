@@ -6,5 +6,6 @@ Some code for the Coursera "Statistics with R" specialization course as organize
 
 This repository will change often!
 
-
+- Course 1: "Introduction to Probability and Data"
+- Course 2: "Inferential Statistics"
 
