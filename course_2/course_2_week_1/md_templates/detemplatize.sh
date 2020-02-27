@@ -15,7 +15,7 @@ for file in plot_pdf_of_area.md sample_stats_plot_ames.md; do
       plots="$raw_master/course_2/course_2_week_1/plots"
       cat "$template" | \
         sed "s~%USEFUL%~${useful}~g" | \
-        sed "s~%PLOTS%~${plots}~g" | \
+        sed "s~%PLOTS%~${plots}~g" \
       > "../$file"
    fi
 done
