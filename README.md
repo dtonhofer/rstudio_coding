@@ -24,4 +24,14 @@ by Patrick Burns, 2011-04-30
 
 _Abstract: If you are using R and you think you’re in hell, this is a map for you. A book about trouble spots, oddities, traps, glitches in R.  Many of the same problems are in S+._
 
-Free PDF at ["The R Inferno"](http://www.burns-stat.com/documents/books/the-r-inferno/) page.
+PDF at ["The R Inferno"](http://www.burns-stat.com/documents/books/the-r-inferno/) page.
+
+### The Foundations of Statistics Reconsidered
+
+by Leonard J. Savage, University of Michigan
+
+Appears in: _Vol.1 of the Proceedings of the Fourth Berkeley Symposium on Mathematics and Probability, Berkeley, University of California Press, 1961._
+
+PDF download links at the [CiteSeerX page](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.8812).
+
+
