@@ -89,9 +89,11 @@ Contents:
 
 ### Probability and Statistics
 
-#### Stanford Encyclopedia of Philosophy: "Interpretations of Probability"
+#### Stanford Encyclopedia of Philosophy
 
-https://plato.stanford.edu/entries/probability-interpret/
+- [Interpretations of Probability](https://plato.stanford.edu/entries/probability-interpret/)
+- [Information](https://plato.stanford.edu/entries/information/)
+- [Causal Models](https://plato.stanford.edu/entries/causal-models/)
 
 #### "The Foundations of Statistics Reconsidered"
 
@@ -120,3 +122,13 @@ by Glenn Shafer and Vladimir Vovk. _"A shorter version was published under the t
 > Kolmogorov synthesized. 
 
 PDF download links at the [ArXiv](https://arxiv.org/abs/1802.06071)
+
+### "Severe Testing as a Basic Concept in a Neyman-Pearson Philosophy of Induction"
+
+by Deborah G. Mayo , Aris Spanos. BRITISH JOURNAL FOR THE PHILOSOPHY OF SCIENCE, 2006.
+
+- [CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.8131)
+- [PDF](https://www.phil.vt.edu/dmayo/personal_website/2006Mayo_Spanos_severe_testing.pdf)
+
+There is a whole book by Deborah Mayo on this ([Reviews](https://statmodeling.stat.columbia.edu/2019/04/12/several-reviews-of-deborah-mayos-new-book-statistical-inference-as-severe-testing-how-to-get-beyond-the-statistics-wars/). This is promising!
+
