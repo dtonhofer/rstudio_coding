@@ -20,10 +20,10 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="335.8911132812499" width="447.8828125" x="415.280517578125" y="632.0383300781241"/>
+              <y:Geometry height="542.817055627032" width="524.6071804323535" x="372.885986328125" y="632.0383300781241"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="447.8828125" x="0.0" y="0.0">Sample statistics
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="524.6071804323535" x="0.0" y="0.0">Sample statistics
 (for the AREA random variable)</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
@@ -47,7 +47,7 @@
         <node id="n0::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="64.375" width="417.8828125" x="430.280517578125" y="787.2573242187491"/>
+              <y:Geometry height="64.375" width="417.8828125" x="387.885986328125" y="787.2573242187491"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="332.27734375" x="4.0" y="9.234375">Sample's mean for AREA:
@@ -59,7 +59,7 @@ MEAN_OF_AREA_OVER_SAMPLE (alias: x̅)
         <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="82.5" width="417.8828125" x="430.280517578125" y="685.9602050781241"/>
+              <y:Geometry height="82.5" width="417.8828125" x="387.885986328125" y="685.9602050781241"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="338.921875" x="4.0" y="18.296875">Sample's standard deviation for AREA:
@@ -71,13 +71,38 @@ STDDEV_OF_AREA_OVER_SAMPLE (alias "s")
         <node id="n0::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="82.5" width="417.8828125" x="430.280517578125" y="870.429443359374"/>
+              <y:Geometry height="82.5" width="417.8828125" x="387.885986328125" y="870.429443359374"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="325.814453125" x="4.0" y="11.3125">Compute other characteristics of the sample dataset:
 ▶ Median
 ▶ Function momenta
 ...etc</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n3">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="82.50000000000011" width="494.60718043235346" x="387.885986328125" y="965.3543319910427"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
+(for a given binwidth .. they are all a bit different)</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n4">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="91.76594719156412" width="494.60718043235346" x="387.885986328125" y="1068.0894385135919"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="482.67578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
+constructed using some smoothing kernel
+▶ integral (surface area under the curve) is 1.0
+▶ mean of the function should be ~MEAN_AREA_OVER_SAMPLE and
+▶ standard deviation of the function should be ~ STDDEV_AREA_OVER_SAMPLE</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -175,14 +200,14 @@ their associated "area" values</y:NodeLabel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="119.2109375" width="321.875" x="1921.0903320312495" y="33.61083984374898"/>
+              <y:Geometry height="163.4200564346046" width="321.875" x="1921.0903320312495" y="24.092217876446668"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="321.875" x="0.0" y="0.0">Sampling dataset</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="15" topF="14.75"/>
+              <y:BorderInsets bottom="10" bottomF="10.421875" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="1164.0" y="205.5390625"/>
@@ -201,12 +226,14 @@ their associated "area" values</y:NodeLabel>
         <node id="n3::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="53.0" width="291.875" x="1936.0903320312495" y="84.82177734374898"/>
+              <y:Geometry height="101.53724393460462" width="291.875" x="1936.0903320312495" y="60.55315537644667"/>
               <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="250.5859375" x="20.64453125" y="3.546875">SAMPLE_COUNT 
-samples (the new individuals) containing
-SAMPLE_SIZE "ames" dataset individuals</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="187.486328125" x="52.1943359375" y="13.846746967302309">SAMPLE_COUNT 
+samples (the new individuals) 
+each with
+SAMPLE_SIZE
+"ames" dataset individuals</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -218,15 +245,15 @@ SAMPLE_SIZE "ames" dataset individuals</y:NodeLabel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="211.078125" width="431.25" x="1866.4028320312495" y="702.976318359374"/>
+              <y:Geometry height="445.1280810445419" width="598.9688670165624" x="1782.5433985229683" y="760.5168660481763"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="431.25" x="0.0" y="0.0">Sampling statistics
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="598.9688670165624" x="0.0" y="0.0">Sampling statistics
 (for the MEAN_AREA_OVER_SAMPLE random variable)</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="17" topF="17.015258789062614"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="7" leftF="7.11257565857386" right="0" rightF="0.0" top="17" topF="17.015258789062614"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="2024.3125" y="773.703125"/>
@@ -245,23 +272,51 @@ SAMPLE_SIZE "ames" dataset individuals</y:NodeLabel>
         <node id="n4::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="52.140869140624886" width="401.25" x="1881.4028320312495" y="773.9134521484366"/>
+              <y:Geometry height="52.140869140624886" width="401.25" x="1804.6559741815422" y="831.4539998372389"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="367.85546875" x="4.0" y="10.1016845703125">Sampling standard deviation for MEAN_AREA_OVER_SAMPLE
-▶ STDDEV_MEAN_AREA_OVER_SAMPLE</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="367.85546875" x="4.0" y="10.101684570312386">Sampling standard deviation for MEAN_AREA_OVER_SAMPLE
+▶ STDDEV_OF_MEAN_AREA_OVER_SAMPLE</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n4::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="53.0" width="401.25" x="1881.4028320312495" y="846.054443359374"/>
+              <y:Geometry height="53.0" width="401.25" x="1804.6559741815422" y="903.5949910481763"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.859375" x="4.0" y="10.53125">Sampling mean for MEAN_AREA_OVER_SAMPLE
-▶ MEAN_MEAN_AREA_OVER_SAMPLE
+▶ MEAN_OF_MEAN_AREA_OVER_SAMPLE
 </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n4::n2">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="93.47480355011805" width="560.7663777962543" x="1805.7458877432764" y="976.5951131184888"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="431.3828125" x="4.0" y="4.0">Histograms showing the distribution of the sample means, i.e. showing
+the Sampling Distribution
+
+(for a given binwidth .. they are all a bit different)</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n4::n3">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="102.75428150710275" width="560.7663777962543" x="1805.7458877432764" y="1087.8906655856156"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="546.14453125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
+constructed using some smoothing kernel
+
+▶ integral (surface area under the curve) is 1.0
+▶ mean of the function should be ~MEAN_OF_MEAN_AREA_OVER_SAMPLE and
+▶ standard deviation of the function should be ~ STDDEV_OF_MEAN_AREA_OVER_SAMPLE</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -287,25 +342,25 @@ says<y:LabelModel>
     <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="249.953125" width="496.5625" x="2473.259123389238" y="683.5388183593739"/>
+          <y:Geometry height="249.953125" width="496.5625" x="2473.259123389238" y="732.5478719075513"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="213.53125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="430.919921875" x="4.0" y="18.2109375">The PDF of MEAN_AREA_OVER_SAMPLE is "well approximated" 
-("aaproximated with noise") by:
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="227.5" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="460.19921875" x="4.0" y="11.2265625">The PDF of the random variable MEAN_OF_AREA_OVER_SAMPLE(i)
 
-1) A Normal PDF
+... with mean MEAN_OF_MEAN_OF_AREA_OVER_SAMPLE
+... and stddev STDDEV_OF_MEAN_OF_AREA_OVER_SAMPLE
 
-2) With mean the population mean for AREA i.e.
+is well approximated ("approximated with noise") by a PDF that is:
 
-   MEAN_OF_MEAN_AREA_OVER_SAMPLE = MEAN_AREA_OVER_POP = 
+1) Normal
 
-3) With standard deviation dependent of SAMPLE_SIZE and equal to:
+2) with mean the population mean for AREA i.e. MEAN_OF_AREA_OVER_POP
+
+3) With standard deviation dependent on SAMPLE_SIZE and equal to:
  
-    STDDEV_AREA_OVER_POP
-   ——————————————  =: STDDEV_MEAN_AREA_OVER_SAMPLE
-        sqrt(SAMPLE_SIZE) 
+    STDDEV_OF_AREA_OVER_POP / sqrt(SAMPLE_SIZE) 
 
-</y:NodeLabel>
+    the so-called "Standard Error"</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -328,7 +383,7 @@ to destroy any hidden correlations --
     <node id="n8">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="101.875" width="301.25" x="1044.42822265625" y="60.38427734374898"/>
+          <y:Geometry height="101.875" width="301.25" x="1116.2048389657934" y="60.38427734374898"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="250.5859375" x="4.0" y="21.0">Collect  
@@ -356,15 +411,15 @@ of the AREA random variable</y:NodeLabel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="263.921875" width="405.416015625" x="-528.3955078125" y="632.0383300781241"/>
+              <y:Geometry height="490.5890663618152" width="524.6071804323535" x="-587.9910902161768" y="638.8097089752509"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="405.416015625" x="0.0" y="0.0">Population Statistics
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="524.6071804323535" x="0.0" y="0.0">Population Statistics
 (for the AREA random variable)</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="5" rightF="5.416015625" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="-82.75" y="770.0112500000002"/>
@@ -383,7 +438,7 @@ of the AREA random variable</y:NodeLabel>
         <node id="n10::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="370.0" x="-513.3955078125" y="685.9602050781241"/>
+              <y:Geometry height="40.0" width="370.0" x="-572.9910902161768" y="692.7315839752509"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="244.251953125" x="4.0" y="4.03125">Population mean for AREA:
@@ -394,7 +449,7 @@ MEAN_OF_AREA_OVER_POP (alias "mu")</y:NodeLabel>
         <node id="n10::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="370.0" x="-513.3955078125" y="742.2102050781241"/>
+              <y:Geometry height="40.0" width="370.0" x="-572.9910902161768" y="748.9815839752509"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="275.30078125" x="4.0" y="4.03125">Population standard deviation for AREA:
@@ -405,13 +460,38 @@ STDDEV_OF_AREA_OVER_POP (alias "sigma")</y:NodeLabel>
         <node id="n10::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="82.5" width="370.0" x="-513.3955078125" y="798.4602050781241"/>
+              <y:Geometry height="82.5" width="370.0" x="-572.9910902161768" y="805.2315839752509"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="346.041015625" x="4.0" y="11.3125">Compute other characteristics of the population dataset:
 ▶ Median
 ▶ Function momenta
 ...etc</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n10::n3">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="91.76594719156412" width="494.6071804323535" x="-572.9910902161768" y="903.9815839752509"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
+(for a given binwidth .. they are all a bit different)</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n10::n4">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="99.58069112693113" width="494.6071804323535" x="-572.9910902161768" y="1014.8180842101351"/>
+              <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="481.2578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
+constructed using some smoothing kernel
+▶ integral (surface area under the curve) is 1.0
+▶ mean of the function should be ~MEAN_OF_AREA_OVER_POP
+▶ standard deviation of the function should be ~ STDDEV_OF_AREA_OVER_POP</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -460,32 +540,7 @@ of which there are only a
     <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="91.76594719156412" width="494.6071804323535" x="-528.3955078125" y="925.9602050781241"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
-(for a given binwidth .. they are all a bit different)</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n15">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="99.58069112693113" width="494.6071804323535" x="-528.3955078125" y="1036.7967053130083"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="481.2578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
-constructed using some smoothing kernel
-▶ integral (surface area under the curve) is 1.0
-▶ mean of the function should be ~MEAN_OF_AREA_OVER_POP
-▶ standard deviation of the function should be ~ STDDEV_OF_AREA_OVER_POP</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n16">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="139.1245117187501" width="348.6455078125" x="-500.01025390625" y="-163.9365234374999"/>
+          <y:Geometry height="139.1245117187501" width="348.6455078125" x="-500.01025390625" y="-185.6049359083055"/>
           <y:Fill color="#00FFFF" color2="#00FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="129.71875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="294.150390625" x="4.0" y="4.702880859375057">Random variable on individuals:
@@ -500,7 +555,7 @@ Function's value lies between 0 and MAX_AREA.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n17">
+    <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="82.5" width="207.0" x="535.721923828125" y="479.8706054687485"/>
@@ -512,7 +567,7 @@ of the AREA random variable</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n18">
+    <node id="n16">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="53.0" width="230.0" x="524.221923828125" y="225.02490234374864"/>
@@ -524,7 +579,7 @@ on the individuals</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n19">
+    <node id="n17">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="74.5" width="230.0" x="524.221923828125" y="341.6977539062486"/>
@@ -534,10 +589,10 @@ on the individuals</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n18">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="82.5" width="269.0625" x="1060.52197265625" y="210.27490234374864"/>
+          <y:Geometry height="82.5" width="269.0625" x="1132.2985889657934" y="210.27490234374864"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.751953125" x="4.0" y="11.3125">We often cannot
@@ -551,18 +606,18 @@ constraints but if we could ...</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n19">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="176.25" width="311.25" x="2221.684733072916" y="-291.9065755208342"/>
           <y:Fill color="#00FFFF" color2="#00FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.4375" x="4.0" y="16.28125">Random variables for new individuals:
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.4375" x="4.0" y="16.28125">Random variables for new individuals i:
 
 MEAN_AREA_OVER_SAMPLE(i)
 
-A function that maps indivuduals (samples) to
-a number, expressing the mean over
+A function that maps indivduals (i.e. samples)
+to a number, expressing the mean over
 the sample's individuals' AREA values.
 
 Function's value lies between 0 and MAX_AREA
@@ -570,7 +625,7 @@ Function's value lies between 0 and MAX_AREA
         </y:GenericNode>
       </data>
     </node>
-    <node id="n22">
+    <node id="n20">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="176.25" width="311.25" x="1616.7218424479165" y="-291.9065755208342"/>
@@ -589,66 +644,43 @@ Function's value lies between 0 and MAX_AREA
         </y:GenericNode>
       </data>
     </node>
+    <node id="n21">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="53.0" width="230.0" x="1967.0278320312495" y="301.9404500325509"/>
+          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="205.76171875" x="12.119140625" y="3.546875">Apply
+MEAN_OF_AREA_OVER_SAMPLE(i)
+on each of the new individuals i.</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="74.5" width="230.0" x="1967.0278320312495" y="413.3008015950509"/>
+          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="205.76171875" x="12.119140625" y="14.296875">SAMPLE_COUNT
+values of
+MEAN_OF_AREA_OVER_SAMPLE(i)</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
     <node id="n23">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="53.0" width="230.0" x="1967.0278320312495" y="244.39990234374858"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="183.4140625" x="4.0" y="3.546875">Apply
-MEAN_AREA_OVER_SAMPLE(i)
-on the new individuals</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n24">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="74.5" width="230.0" x="1967.0278320312495" y="355.7602539062486"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="183.4140625" x="23.29296875" y="21.28125">SAMPLE_COUNT values of
-MEAN_AREA_OVER_SAMPLE(i)</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n25">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="53.0" width="230.0" x="2303.5330403645826" y="244.39990234374858"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.51171875" x="4.0" y="3.546875">Apply
-STDDEV_AREA_OVER_SAMPLE(i)
-on the new individuals</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n26">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="74.5" width="230.0" x="2303.5330403645826" y="355.7602539062486"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.51171875" x="16.244140625" y="21.28125">SAMPLE_COUNT values of
-STDDEV_AREA_OVER_SAMPLE(i)</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n27">
-      <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="195.9916992187508" width="401.25" x="2520.915373389238" y="-58.16992187500182"/>
+          <y:Geometry height="163.4200564346046" width="401.25" x="2520.915373389238" y="-58.16992187500182"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="384.0625" x="4.0" y="19.167724609375398">Conditions
-▶ Independence: Sampled observations must be independent, 
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="384.0625" x="4.0" y="9.866278217302295">▶ Independence: Sampled observations must be independent, 
    i.e. have no hidden correlations.
    ▶ Random sample/assignment
    ▶ If "sampling without replacement", SAMPLE_SIZE needs
-      to be "small" relative to the population: less than 10% of
-      population. Otherwise, adjustements are need (use
-      functions other than a Normal)
+      to be "small" relative to the population (rule of thumb:
+      less than 10% of population). Otherwise, adjustements are
+      needed (use functions other than a Normal)
 ▶ Sample size/skew: Either the population distribution is 
     normal, or if the population distribution is skewed, the 
     sample size is "large" (rule of thumb: SAMPLE_SIZE &gt; 30).</y:NodeLabel>
@@ -659,33 +691,35 @@ STDDEV_AREA_OVER_SAMPLE(i)</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n24">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="82.5" width="230.00000000000023" x="1967.0278320312495" y="525.3682861328112"/>
+          <y:Geometry height="102.75428150710275" width="230.00000000000023" x="1967.0278320312495" y="562.6545523145107"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="209.60546875" x="4.0" y="11.3125">Compute
-some sampling statistics
-of the MEAN_AREA_OVER_SAMPLE
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="193.064453125" x="18.4677734375" y="7.47089075355143">Compute
+some 
+sampling statistics
+of the 
+MEAN_OF_AREA_OVER_SAMPLE
 random variable</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n25">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="82.5" width="532.1875" x="1092.78759765625" y="916.2419433593741"/>
           <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="397.380859375" x="4.0" y="11.3125">Ansatz:
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="419.728515625" x="4.0" y="11.3125">Ansatz:
 
-The unknown value we are looking for, MEAN_AREA_OVER_POP is
-"near" MEAN_AREA_OVER_SAMPLE.</y:NodeLabel>
+The unknown value we are looking for, MEAN_OF_AREA_OVER_POP is
+"near" MEAN_OF_AREA_OVER_SAMPLE.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n30">
+    <node id="n26">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="64.375" width="301.25" x="1208.25634765625" y="767.7963867187491"/>
@@ -696,47 +730,47 @@ single sample</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n31">
+    <node id="n27">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="182.72534179687455" width="532.1875" x="1092.78759765625" y="1405.400634765624"/>
           <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="171.625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="479.787109375" x="4.0" y="5.550170898437273">By symmetry arguments, the *unknown* MEAN_AREA_OVER_POP can be found
-around the *known* MEAN_AREA_OVER_SAMPLE with the following PDF:
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="171.625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="502.134765625" x="4.0" y="5.550170898437273">By symmetry arguments, the *unknown* MEAN_OF_AREA_OVER_POP can be found
+around the *known* MEAN_OF_AREA_OVER_SAMPLE with the following PDF:
 
 ▶ a Normal
-▶ centered at the *known* MEAN_AREA_OVER_SAMPLE
+▶ centered at the *known* MEAN_OF_AREA_OVER_SAMPLE
 ▶ with the *known* standard deviation
-    STDDEV_AREA_OVER_SAMPLE / sqrt(SAMPLE_SIZE)
+    STDDEV_OF_AREA_OVER_SAMPLE / sqrt(SAMPLE_SIZE)
 
 We can then use the mechanics for integration of the Normal to find the 
 95% confidence level as 
-[MEAN_AREA_OVER_SAMPLE - MARGIN_OF_ERROR_95%,
- MEAN_AREA_OVER_SAMPLE + MARGIN_OF_ERROR_95%]</y:NodeLabel>
+[MEAN_OF_AREA_OVER_SAMPLE - MARGIN_OF_ERROR_95%,
+ MEAN_OF_AREA_OVER_SAMPLE + MARGIN_OF_ERROR_95%]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n32">
+    <node id="n28">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="170.4609375" width="532.1875" x="1092.78759765625" y="1028.741943359374"/>
           <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="478.943359375" x="4.0" y="13.38671875">In fact, using the CLT one can state:
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="523.638671875" x="4.0" y="13.38671875">In fact, using the CLT one can state:
 
-MEAN_AREA_OVER_SAMPLE has been ("approximately", i.e. with "noise") 
+MEAN_OF_AREA_OVER_SAMPLE has been ("approximately", i.e. with "noise") 
 selected from a PDF that is:
 
 ▶ a Normal
-▶ centered at the *unknown* MEAN_MEAN_AREA_OVER_SAMPLE
-    = MEAN_AREA_OVER_POP
-▶ with the *unknown* standard deviation STDDEV_MEAN_AREA_OVER_SAMPLE
-    = STDDEV_AREA_OVER_POP / sqrt(SAMPLE_SIZE)</y:NodeLabel>
+▶ centered at the *unknown* MEAN_OF_MEAN_OF_AREA_OVER_SAMPLE
+    = MEAN_OF_AREA_OVER_POP
+▶ with the *unknown* standard deviation STDDEV_OF_MEAN_OF_AREA_OVER_SAMPLE
+    = STDDEV_OF_AREA_OVER_POP / sqrt(SAMPLE_SIZE)</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n33">
+    <node id="n29">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="137.5" width="532.1875" x="1092.78759765625" y="1233.551757812499"/>
@@ -745,125 +779,65 @@ selected from a PDF that is:
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="101.78125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="450.666015625" x="4.0" y="17.859375">which is approximately (i.e. with "more noise" because we switch a value)
 
 ▶ a Normal
-▶ centered at the *unknown* MEAN_MEAN_AREA_OVER_SAMPLE
-    = MEAN_AREA_OVER_POP
+▶ centered at the *unknown* MEAN_OF_MEAN_OF_AREA_OVER_SAMPLE
+    = MEAN_OF_AREA_OVER_POP
 ▶ with the *known* standard deviation
-    STDDEV_AREA_OVER_SAMPLE / sqrt(SAMPLE_SIZE)
+    STDDEV_OF_AREA_OVER_SAMPLE / sqrt(SAMPLE_SIZE)
 </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n34">
+    <node id="n30">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="53.0" width="496.5625" x="2473.259123389238" y="933.4919433593739"/>
-          <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="419.107421875" x="38.7275390625" y="17.515625">STDDEV_MEAN_AREA_OVER_SAMPLE is called the STANDARD ERROR</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n35">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="265.578125" width="532.1875" x="1779.3816702895365" y="1363.9742431640614"/>
-          <y:Fill color="#00FF00" color2="#00FF00" transparent="false"/>
+          <y:Geometry height="265.578125" width="532.1875" x="1092.78759765625" y="1622.4748535156236"/>
+          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="241.46875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="504.853515625" x="4.0" y="12.0546875">And then we can say:
 
 With the above algorithm...
 
 "approximately 95% of samples would yield an interval that contains the unknown 
-  MEAN_AREA_OVER_POP"
+  MEAN_OF_AREA_OVER_POP"
 
 and so... 
 
 "the interval
- [MEAN_AREA_OVER_SAMPLE - MARGIN_OF_ERROR_95%,
- MEAN_AREA_OVER_SAMPLE + MARGIN_OF_ERROR_95%]
- contains the unknown MEAN_AREA_OVER_POP with
- approximately 95% of (belief more than probability ... getting philosophical...)"
+ [MEAN_OF_AREA_OVER_SAMPLE - MARGIN_OF_ERROR_95%,
+ MEAN_OF_AREA_OVER_SAMPLE + MARGIN_OF_ERROR_95%]
+ contains the unknown MEAN_OF_AREA_OVER_POP with
+ approximately 95% of (belief instead of probability)"
 
 The "approximately" covers the noise from lack of Normaly, finite sample size,
 variable replacement and other sources ... how much is it, really?</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n36">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="82.50000000000011" width="494.60718043235346" x="415.280517578125" y="988.1645498819228"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
-(for a given binwidth .. they are all a bit different)</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n37">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="91.76594719156412" width="494.60718043235346" x="415.280517578125" y="1090.899656404472"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="482.67578125" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
-constructed using some smoothing kernel
-▶ integral (surface area under the curve) is 1.0
-▶ mean of the function should be ~MEAN_AREA_OVER_SAMPLE and
-▶ standard deviation of the function should be ~ STDDEV_AREA_OVER_SAMPLE</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n38">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="93.47480355011805" width="543.4316478196097" x="1849.3715820312495" y="989.4746093749991"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.5703125" x="4.0" y="4.0">Histograms
-(for a given binwidth .. they are all a bit different)</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n39">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="102.75428150710275" width="543.4316478196097" x="1849.3715820312495" y="1134.3562011718743"/>
-          <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="523.796875" x="4.0" y="4.0">Probability density function ("smoothed, scaled histogram")
-constructed using some smoothing kernel
-▶ integral (surface area under the curve) is 1.0
-▶ mean of the function should be ~MEAN_MEAN_AREA_OVER_SAMPLE and
-▶ standard deviation of the function should be ~ STDDEV_MEAN_AREA_OVER_SAMPLE</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n40">
+    <node id="n31">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="123.125" width="301.25" x="2392.7254202895365" y="1435.2008056640614"/>
+          <y:Geometry height="123.125" width="301.25" x="1725.7445989225505" y="1693.7014160156236"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.794921875" x="4.0" y="3.6875">Exercise: 
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="269.142578125" x="4.0" y="3.6875">Exercise: 
 For a given 
 ▶ confidence interval
 ▶ SAMPLE_COUNT
 ▶ SAMPLE_SIZE
 compute the propertion of Samples that
-effectively have MEAN_AREA_OVER_POP
+effectively have MEAN_OF_AREA_OVER_POP
 lying inside thewir confidence intervals 
 </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <edge id="e0" source="n23" target="n24">
+    <edge id="e0" source="n21" target="n22">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.96875" x="-61.484375000000455" y="20.192840576170454">we obtain<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.96875" x="-61.484375000000455" y="20.192860921222803">we obtain<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -874,31 +848,14 @@ lying inside thewir confidence intervals
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e1" source="n25" target="n26">
-      <data key="d10">
-        <y:QuadCurveEdge straightness="0.1">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.96875" x="-61.484293619792425" y="20.192840576170454">we obtain<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
-            </y:ModelParameter>
-            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
-          </y:EdgeLabel>
-        </y:QuadCurveEdge>
-      </data>
-    </edge>
-    <edge id="e2" source="n5" target="n6">
+    <edge id="e1" source="n5" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="2987.9185685625725" y="-203.78157552083422"/>
-            <y:Point x="2987.9185685625725" y="251.38837240266264"/>
-            <y:Point x="2879.2078403956357" y="251.38837240266264"/>
-            <y:Point x="2721.540373389238" y="251.38837240266264"/>
+            <y:Point x="2987.9185685625725" y="308.928920091465"/>
+            <y:Point x="2879.2078403956357" y="308.928920091465"/>
+            <y:Point x="2721.540373389238" y="308.928920091465"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -906,7 +863,7 @@ lying inside thewir confidence intervals
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n21" target="n5">
+    <edge id="e2" source="n19" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -916,7 +873,7 @@ lying inside thewir confidence intervals
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n1::n0" target="n7">
+    <edge id="e3" source="n1::n0" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -926,7 +883,7 @@ lying inside thewir confidence intervals
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n7" target="n2::n0">
+    <edge id="e4" source="n7" target="n2::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -946,7 +903,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n8" target="n3::n0">
+    <edge id="e5" source="n8" target="n3::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -956,7 +913,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n11" target="n12">
+    <edge id="e6" source="n11" target="n12">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -973,7 +930,7 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e8" source="n12" target="n13">
+    <edge id="e7" source="n12" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -983,7 +940,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n12" target="n9">
+    <edge id="e8" source="n12" target="n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -993,7 +950,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n9" target="n10">
+    <edge id="e9" source="n9" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1003,13 +960,13 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e11" source="n1::n0" target="n16">
+    <edge id="e10" source="n1::n0" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="-14.7294921875" y="-63.275955200195256">with<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="-14.7294921875" y="-74.14761413335196">with<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1021,7 +978,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n1::n0" target="n11">
+    <edge id="e11" source="n1::n0" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1031,7 +988,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n18" target="n19">
+    <edge id="e12" source="n16" target="n17">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1048,7 +1005,7 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e14" source="n19" target="n17">
+    <edge id="e13" source="n17" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1058,7 +1015,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n2::n0" target="n18">
+    <edge id="e14" source="n2::n0" target="n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1068,7 +1025,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n2::n0" target="n8">
+    <edge id="e15" source="n2::n0" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1078,7 +1035,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n8" target="n20">
+    <edge id="e16" source="n8" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1088,7 +1045,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n17" target="n0">
+    <edge id="e17" source="n15" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1098,7 +1055,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n0::n1" target="n22">
+    <edge id="e18" source="n0::n1" target="n20">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="63.61848958333303" ty="-69.95930989583314">
@@ -1109,7 +1066,7 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e20" source="n3::n0" target="n21">
+    <edge id="e19" source="n3::n0" target="n19">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1117,7 +1074,7 @@ obtain
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="30.644530646706244" y="-217.7068229533665">with<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="26.911021234388045" y="-200.53305689257735">with<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1129,7 +1086,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n3::n0" target="n22">
+    <edge id="e20" source="n3::n0" target="n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1137,7 +1094,7 @@ obtain
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="-78.38428463650393" y="-229.70300081434812">with<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.458984375" x="-73.1255857702049" y="-211.46910880077706">with<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1149,19 +1106,19 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n0::n0" target="n21">
+    <edge id="e21" source="n0::n0" target="n19">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="1167.85009765625" y="797.8244628906234"/>
-            <y:Point x="1896.9028320312495" y="-26.865885416667368"/>
+            <y:Point x="1896.9028320312495" y="-2.597263449365059"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e23" source="n3::n0" target="n23">
+    <edge id="e22" source="n3::n0" target="n21">
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1170,17 +1127,26 @@ obtain
         </y:QuadCurveEdge>
       </data>
     </edge>
-    <edge id="e24" source="n5" target="n27">
+    <edge id="e23" source="n5" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="82.896484375" x="-41.448152001386916" y="33.58287556966009">Conditions of
+applicability<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n24" target="n28">
+    <edge id="e24" source="n22" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1190,7 +1156,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n28" target="n4">
+    <edge id="e25" source="n24" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1200,11 +1166,11 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n6" target="n4::n0">
+    <edge id="e26" source="n6" target="n4::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="2452.2088216145826" y="799.9838867187491"/>
+            <y:Point x="2452.2088216145826" y="857.5244344075514"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1212,17 +1178,17 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n6" target="n4::n1">
+    <edge id="e27" source="n6" target="n4::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-159.9565517746555" sy="64.03906250000011" tx="0.0" ty="0.0"/>
+          <y:Path sx="-234.02899684803197" sy="72.570556640625" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n2::n0" target="n30">
+    <edge id="e28" source="n2::n0" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1236,7 +1202,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n30" target="n29">
+    <edge id="e29" source="n26" target="n25">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1250,7 +1216,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n29" target="n32">
+    <edge id="e30" source="n25" target="n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1260,7 +1226,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n32" target="n33">
+    <edge id="e31" source="n28" target="n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1270,7 +1236,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n33" target="n31">
+    <edge id="e32" source="n29" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1280,7 +1246,7 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n31" target="n35">
+    <edge id="e33" source="n27" target="n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1290,106 +1256,15 @@ obtain
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n12" target="n14">
+    <edge id="e34" source="n30" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-573.6749397532332" y="377.9780273437495"/>
-            <y:Point x="-573.6749397532332" y="971.8431786739061"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e36" source="n12" target="n15">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-573.6749397532332" y="377.9780273437495"/>
-            <y:Point x="-573.6749397532332" y="1089.2588210361894"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e37" source="n19" target="n36">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="363.11287151696183" y="378.9477539062486"/>
-            <y:Point x="363.11287151696183" y="1029.4145498819228"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e38" source="n19" target="n37">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="363.11287151696183" y="378.9477539062486"/>
-            <y:Point x="363.11287151696183" y="1136.782630000254"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e39" source="n24" target="n38">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1798.6220309630087" y="393.0102539062486"/>
-            <y:Point x="1798.6220309630087" y="1036.212011150058"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e40" source="n24" target="n39">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1798.9252819255523" y="393.0102539062486"/>
-            <y:Point x="1798.9252819255523" y="1185.7333419254257"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e41" source="n35" target="n40">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="2347.0940726332865" y="1496.7633056640614"/>
+            <y:Point x="1680.1132512663005" y="1755.2639160156236"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e42" source="n3::n0" target="n25">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="2082.0278320312495" y="191.99750030285867"/>
-            <y:Point x="2418.5330403645826" y="191.99750030285867"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
