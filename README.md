@@ -44,23 +44,44 @@ Contents:
 
 It's at https://cran.r-project.org/faqs.html
 
-#### "Advanced R", 2nd edition
+#### "Advanced R"
 
 By Hadley Wickham.
 
-It's at http://adv-r.had.co.nz/Introduction.html
+- [First Edition](http://adv-r.had.co.nz)
+- [Second Edition](https://adv-r.hadley.nz/)
+
+From the [Introduction to the 1st Edition](http://adv-r.had.co.nz/Introduction.html):
 
 > To get the most out of this book, you’ll need to have written a decent amount of code in R or
 > another programming language. You might not know all the details, but you should be familiar
 > with how functions work in R and although you may currently struggle to use them effectively,
 > you should be familiar with the apply family (like apply() and lapply()).
 
-At least [Read the Introduction](http://adv-r.had.co.nz/Introduction.html)
-
 > You are confronted with over 20 years of evolution every time you use R.
 > Learning R can be tough because there are many special cases to remember.
 
-Contents:
+From the [Introduction to the 2nd Edition](https://adv-r.hadley.nz/introduction.html):
+
+> This book delivers the knowledge that I think an advanced R programmer should possess: a deep
+> understanding of the fundamentals coupled with a broad vocabulary that means that you can 
+> tactically learn more about a topic when needed.
+
+> What you will not learn
+> 
+> This book is about R the programming language, not R the data analysis tool. If you are
+> looking to improve your data science skills, I instead recommend that you learn about 
+> the tidyverse, a collection of consistent packages developed by me and my colleagues.
+> In this book you’ll learn the techniques used to develop the tidyverse packages; if you
+> want to instead learn how to use them, I recommend _R for Data Science_.
+
+> A scientific mindset is extremely helpful when learning R. If you don’t understand 
+> how something works, you should develop a hypothesis, design some experiments, run them,
+> and record the results. This exercise is extremely useful since if you can’t figure
+> something out and need to get help, you can easily show others what you tried. Also,
+> when you learn the right answer, you’ll be mentally prepared to update your world view.
+
+Contents of the 1st Edition:
 
 - Introduction
 - Foundations
