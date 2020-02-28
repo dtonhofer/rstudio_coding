@@ -18,7 +18,9 @@ This repository will change often!
 
 ## Good to read
 
-### The R Inferno
+### R
+
+#### The R Inferno
 
 by Patrick Burns, 2011-04-30
 
@@ -27,11 +29,15 @@ by Patrick Burns, 2011-04-30
 
 PDF at ["The R Inferno"](http://www.burns-stat.com/documents/books/the-r-inferno/) page.
 
-### The Foundations of Statistics Reconsidered
+### Probability and Statistics
 
-by Leonard J. Savage, University of Michigan
+#### Stanford Encyclopedia of Philosophy: Interpretations of Probability
 
-Appears in: _Vol.1 of the Proceedings of the Fourth Berkeley Symposium on Mathematics and Probability, Berkeley, University of California Press, 1961._
+https://plato.stanford.edu/entries/probability-interpret/
+
+#### The Foundations of Statistics Reconsidered
+
+by Leonard J. Savage, University of Michigan. Appears in: _Vol.1 of the Proceedings of the Fourth Berkeley Symposium on Mathematics and Probability, Berkeley, University of California Press, 1961._
 
 > Introduction: This is an expository paper on the evolution of opinion about the foundations of statistics.
 > It particularly emphasizes the paths that some of us have followed to a position that may be called
@@ -45,10 +51,7 @@ PDF download links at the [CiteSeerX page](https://citeseerx.ist.psu.edu/viewdoc
 
 ### The origins and legacy of Kolmogorov's Grundbegriffe
 
-by Glenn Shafer and Vladimir Vovk
-
-_"A shorter version was published under the title "The sources of Kolmogorov's Grundbegriffe" in
-Statistical Science 21, 70 - 98 (2006)"_
+by Glenn Shafer and Vladimir Vovk. _"A shorter version was published under the title "The sources of Kolmogorov's Grundbegriffe" in Statistical Science 21, 70 - 98 (2006)"_
 
 > Abstract: April 25, 2003, marked the 100th anniversary of the birth of Andrei Nikolaevich Kolmogorov, the
 > twentieth century's foremost contributor to the mathematical and philosophical foundations of probability. The year
