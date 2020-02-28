@@ -14,4 +14,5 @@ This repository will change often!
    - Week 5: "Peer-Reviewed Assignment"
 - Course 2: ["Inferential Statistics"](https://www.coursera.org/learn/inferential-statistics-intro/)
    - Week 1: "Central Limit Theorem and Confidence Interval"
+   - Week 2: "Hypothesis Testing"
 
