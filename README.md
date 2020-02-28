@@ -64,7 +64,7 @@ Contents:
 
 - Introduction
 - Foundations
-  - Data structures
+  - [Data structures](http://adv-r.had.co.nz/Data-structures.html)
   - Subsetting
   - Vocabulary
   - Style
