@@ -20,7 +20,7 @@ This repository will change often!
 
 ### R
 
-#### The R Inferno
+#### "The R Inferno"
 
 by Patrick Burns, 2011-04-30
 
@@ -29,13 +29,71 @@ by Patrick Burns, 2011-04-30
 
 PDF at ["The R Inferno"](http://www.burns-stat.com/documents/books/the-r-inferno/) page.
 
+Contents:
+
+- Circle 2: Growing Objects
+- Circle 3: Failing to Vectorize
+- Circle 4: Over-Vectorizing
+- Circle 5: Not Writing Functions
+- Circle 6: Doing Global Assignments
+- Circle 7: Tripping on Object Orientation
+- Circle 8: Believing it Does as Intented _(packed full of good stuff)_
+- Circle 9: Unhelpfully Seeking Help 
+
+#### The R FAQ
+
+It's at https://cran.r-project.org/faqs.html
+
+#### "Advanced R", 2nd edition
+
+By Hadley Wickham.
+
+It's at http://adv-r.had.co.nz/Introduction.html
+
+> To get the most out of this book, you’ll need to have written a decent amount of code in R or
+> another programming language. You might not know all the details, but you should be familiar
+> with how functions work in R and although you may currently struggle to use them effectively,
+> you should be familiar with the apply family (like apply() and lapply()).
+
+At least [Read the Introduction](http://adv-r.had.co.nz/Introduction.html)
+
+> You are confronted with over 20 years of evolution every time you use R.
+> Learning R can be tough because there are many special cases to remember.
+
+Contents:
+
+- Introduction
+- Foundations
+  - Data structures
+  - Subsetting
+  - Vocabulary
+  - Style
+  - Functions
+  - OO field guide
+  - Environments
+  - Exceptions and debugging
+- Functional programming
+  - Functional programming
+  - Functionals
+  - Function operators
+- Metaprogramming
+  - Non-standard evaluation
+  - Expressions
+  - Domain specific languages
+- Performant code
+  - Performance
+  - Profiling
+  - Memory
+  - Rcpp
+  - R's C interface
+
 ### Probability and Statistics
 
-#### Stanford Encyclopedia of Philosophy: Interpretations of Probability
+#### Stanford Encyclopedia of Philosophy: "Interpretations of Probability"
 
 https://plato.stanford.edu/entries/probability-interpret/
 
-#### The Foundations of Statistics Reconsidered
+#### "The Foundations of Statistics Reconsidered"
 
 by Leonard J. Savage, University of Michigan. Appears in: _Vol.1 of the Proceedings of the Fourth Berkeley Symposium on Mathematics and Probability, Berkeley, University of California Press, 1961._
 
@@ -49,7 +107,7 @@ by Leonard J. Savage, University of Michigan. Appears in: _Vol.1 of the Proceedi
 
 PDF download links at the [CiteSeerX page](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.8812).
 
-### The origins and legacy of Kolmogorov's Grundbegriffe
+#### "The origins and legacy of Kolmogorov's Grundbegriffe"
 
 by Glenn Shafer and Vladimir Vovk. _"A shorter version was published under the title "The sources of Kolmogorov's Grundbegriffe" in Statistical Science 21, 70 - 98 (2006)"_
 
