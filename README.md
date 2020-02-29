@@ -28,6 +28,7 @@ This repository will change often!
 ### R is organic!
 
 - [NA vs. NULL](https://www.r-bloggers.com/r-na-vs-null/)
+- [Notes on the R object system(s)](https://stackoverflow.com/questions/6583265/what-does-s3-methods-mean-in-r)
 
 ## Good to read
 
