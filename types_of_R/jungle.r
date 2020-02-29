@@ -1,29 +1,3 @@
-# ===
-# R code used as basis for illustratig the CLT theorem and
-# construction of the confidence interval.
-# ===
-
-# ---
-# Load the libraries that we need.
-# ---
-
-load_libraries_for_tests <- function() {
-   library(tidyverse)  # Load the whole tidyverse (ggplot2, dplyr, purrr etc..)
-   library(testit)     # For "assert": https://www.rdocumentation.org/packages/testit/versions/0.11
-                       # install.packages('testit')
-}
-
-# ---
-# Call from toplevel to run some test
-# ---
-
-run_some_tests <- function() {
-   load_libraries_for_tests()
-   assert('Testing NULL', {
-      NULL == NULL
-   })
-}
-
 jungle <- function(x) {
    message("Structure via str(x)") # str(x) outputs to terminal
    str(x)
