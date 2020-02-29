@@ -16,6 +16,19 @@ This repository will change often!
    - Week 1: "Central Limit Theorem and Confidence Interval"
    - Week 2: "Hypothesis Testing"
 
+## Good to know
+
+### R assertions and unit testing packages
+
+[Assertions](https://en.wikipedia.org/wiki/Assertion_(software_development))? [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing)? Yes, those. Use them! Without these exoskeletons you are not coding, just fumbling in the dark.
+
+- Simple: [testit](https://www.rdocumentation.org/packages/testit/versions/0.11)
+- Extensive (like [JUnit](https://junit.org/junit5/)): [testthat](https://cran.r-project.org/web/packages/testthat/index.html)
+
+### R is organic!
+
+- [NA vs. NULL](https://www.r-bloggers.com/r-na-vs-null/)
+
 ## Good to read
 
 ### R
