@@ -18,9 +18,9 @@ This repository will change often!
 
 ## Supplementary Materials
 
-- One really needs to get a grip on R outside of the above course, even when coming from the IT side.
-- Some philosophy on probability, statistics, and inference is helpful and rewarding!
-- From the AI side, new approaches to inference are brewing. Let's have a look.
+- One really needs to get a grip on R outside of the above course, even when coming from the IT side. Thus: [this page](More_on_R.md)
+- Some philosophy on probability, statistics, and inference is helpful and rewarding (see below). 
+- From the AI side, new approaches to inference are brewing. Let's have a look (see below).
 
 ### Probability and Statistics
 
