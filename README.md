@@ -26,9 +26,12 @@ This repository will change often!
 
 #### Stanford Encyclopedia of Philosophy
 
+More info than a robed guy at the [Athenaeum](https://en.wikipedia.org/wiki/Athenaeum_(ancient_Rome)) can take in!
+
 - [Interpretations of Probability](https://plato.stanford.edu/entries/probability-interpret/)
 - [Information](https://plato.stanford.edu/entries/information/)
 - [Causal Models](https://plato.stanford.edu/entries/causal-models/)
+- [The Problem of Induction](https://plato.stanford.edu/entries/induction-problem/)
 
 #### "The Foundations of Statistics Reconsidered"
 
@@ -65,7 +68,11 @@ by Deborah G. Mayo , Aris Spanos. BRITISH JOURNAL FOR THE PHILOSOPHY OF SCIENCE,
 - [CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.8131)
 - [PDF](https://www.phil.vt.edu/dmayo/personal_website/2006Mayo_Spanos_severe_testing.pdf)
 
-There is a whole book by Deborah Mayo on this ([Reviews](https://statmodeling.stat.columbia.edu/2019/04/12/several-reviews-of-deborah-mayos-new-book-statistical-inference-as-severe-testing-how-to-get-beyond-the-statistics-wars/)). This is promising!
+Discusses rationale, problems and philosophy of "Neyman-Pearson tests" (i.e. confidence interval tests) (named after [Jerzy Neyman](https://en.wikipedia.org/wiki/Jerzy_Neyman) and [Karl Pearson](https://en.wikipedia.org/wiki/Karl_Pearson).
+
+There is a whole book by Deborah Mayo on this: ([Reviews](https://statmodeling.stat.columbia.edu/2019/04/12/several-reviews-of-deborah-mayos-new-book-statistical-inference-as-severe-testing-how-to-get-beyond-the-statistics-wars/)). This is promising!
+
+
 
 ### Causal Inference: The Next Generation
 
