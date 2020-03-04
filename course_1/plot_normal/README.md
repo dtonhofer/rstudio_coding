@@ -23,10 +23,10 @@ plot_normal <- function(the_min, the_max, the_mean, the_stddev) {
    titlestr <- "A normal distribution"
 
    subtitlestr <-
-      paste0("min = "      , round(the_min),
-             ", max = "      , round(the_max),
-             ", mean = "     , round(the_mean),
-             ", stddev = "   , round(the_stddev))
+      paste0("min = "      , round_it(the_min),
+             ", max = "      , round_it(the_max),
+             ", mean = "     , round_it(the_mean),
+             ", stddev = "   , round_it(the_stddev))
 
    plot <- ggplot() +
        geom_line(data = normal, aes(x=x,y=y)) +
@@ -52,6 +52,19 @@ plot_normal <- function(the_min, the_max, the_mean, the_stddev) {
    plot <- plot + geom_vline(xintercept=x_where, color=color_stddev, linetype="dotdash")
            
    return(plot)
+}
+
+round_it <- function(value) {
+   rr = 0 # round to integer with 0   
+   rounded_value <- round(value,rr)
+   error = abs(value * 0.0001) # set as needed
+   diff = abs(value - rounded_value)
+   while (diff > error) {
+      rr <- rr+1
+      rounded_value <- round(value,rr)   
+      diff = abs(value - rounded_value)
+   }
+   return (rounded_value)
 }
 ````
 
