@@ -61,7 +61,7 @@ Plot in RStudio.
 > plot_normal(-10,10.0,3)
 ````
 
-![Normal plot](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_1/plot_normal/RPlot.png)
+![Normal plot](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_1/plot_normal/Rplot.png)
 
 
 
