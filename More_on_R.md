@@ -12,7 +12,20 @@
 - [NA vs. NULL](https://www.r-bloggers.com/r-na-vs-null/)
 - [Notes on the R object system(s)](https://stackoverflow.com/questions/6583265/what-does-s3-methods-mean-in-r)
 
+## R language definition
+
+- [R Language Definition](https://cran.r-project.org/doc/manuals/R-lang.html)
+
 ## Good to read
+
+#### Questions/Answers of some interest on Stack Overflow
+
+- [The difference between bracket \[\] and double bracket \[\[\]\] for accessing the elements of a list or dataframe](https://stackoverflow.com/questions/1169456/the-difference-between-bracket-and-double-bracket-for-accessing-the-el). 
+   - See [Indexing](https://cran.r-project.org/doc/manuals/R-lang.html#Indexing). 
+   - Also, from Quora: [What is the difference between \[ \] and \[\[ \]\] in R?](https://www.quora.com/What-is-the-difference-between-and-in-R?share=1)
+- [What are the differences between “=” and “<-” assignment operators in R?](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r)
+- [What is the meaning of the dollar sign “$” in R function()?](https://stackoverflow.com/questions/42560090/what-is-the-meaning-of-the-dollar-sign-in-r-function)
+- [Remove duplicated rows using dplyr](https://stackoverflow.com/questions/22959635/remove-duplicated-rows-using-dplyr)
 
 #### "The R Inferno"
 
