@@ -26,9 +26,10 @@ This repository will change often!
 
 #### Stanford Encyclopedia of Philosophy
 
-More info than a robed guy at the [Athenaeum](https://en.wikipedia.org/wiki/Athenaeum_(ancient_Rome)) can take in!
+More info than a robed guy at the [Athenaeum](https://en.wikipedia.org/wiki/Athenaeum_(ancient_Rome)) can take in in a lifetime.
 
 - [Interpretations of Probability](https://plato.stanford.edu/entries/probability-interpret/)
+- [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)
 - [Information](https://plato.stanford.edu/entries/information/)
 - [Causal Models](https://plato.stanford.edu/entries/causal-models/)
 - [The Problem of Induction](https://plato.stanford.edu/entries/induction-problem/)
