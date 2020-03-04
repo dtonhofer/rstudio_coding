@@ -29,18 +29,12 @@ str(ames_area)
 
 ## For the future
 
-Write the above code into file `loadamesarea.r` in directory `scripts` so that the `ames_area` tibble
-can be set or reset by executing
+On a Unix machine:
+
+Copy the above code into a file `~/scripts/loadamesarea.r` for example (i.e. the file `loadamesarea.r` in directory `scripts` in your home directory)
+
+Then the `ames_area` tibble can be set or reset by executing this in the RStudio console:
 
 ````
 source("~/scripts/loadamesarea.r")
 ````
-
-## P.S.
-
-I still haven't understood R's structure unpacking...
-
-````
-v0 <- ames_area[0]    # just a value .. 2930 obs. of 0 variables (i.e. there is nothing)
-v1 <- ames_area[1]    # a tibble (S3 class), 2930 obs. of 1 variable (of mode int)
-v2 <- ames_area[[1]]  # the content of v1. This is just a value, an array of int [1:2930]
