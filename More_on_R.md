@@ -9,12 +9,12 @@
 
 ## R is organic!
 
-- [NA vs. NULL](https://www.r-bloggers.com/r-na-vs-null/)
-- [Notes on the R object system(s)](https://stackoverflow.com/questions/6583265/what-does-s3-methods-mean-in-r)
+- R-Bloggers: [NA vs. NULL](https://www.r-bloggers.com/r-na-vs-null/)
+- StackOverflow: [Notes on the R object system(s)](https://stackoverflow.com/questions/6583265/what-does-s3-methods-mean-in-r)
 
 ## R language definition
 
-- [R Language Definition](https://cran.r-project.org/doc/manuals/R-lang.html)
+- [R Language Definition at CRAN](https://cran.r-project.org/doc/manuals/R-lang.html)
 
 ## Good to read
 
