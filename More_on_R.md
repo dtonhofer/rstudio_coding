@@ -27,6 +27,26 @@
 - [What is the meaning of the dollar sign “$” in R function()?](https://stackoverflow.com/questions/42560090/what-is-the-meaning-of-the-dollar-sign-in-r-function)
 - [Remove duplicated rows using dplyr](https://stackoverflow.com/questions/22959635/remove-duplicated-rows-using-dplyr)
 
+#### Expressions
+
+How does the following even work? It must grab into the Abstract Syntax Tree of the parameter expression. Even a LISP cannot do that without resorting to macros ... I think.
+
+````
+ci <- ames %>%
+        rep_sample_n(size = n, reps = 50, replace = TRUE) %>%
+        summarise(lower = mean(area) - z_star_95 * (sd(area) / sqrt(n)),
+                  upper = mean(area) + z_star_95 * (sd(area) / sqrt(n)))
+````
+
+- https://adv-r.hadley.nz/evaluation.html (second edition)
+- http://adv-r.had.co.nz/Expressions.html (first edition)
+- https://stackoverflow.com/questions/4692231/r-passing-expression-to-an-inner-function
+- https://stackoverflow.com/questions/4682709/how-to-write-an-r-function-that-evaluates-an-expression-within-a-data-frame
+
+#### Tidyverse "dplyr"
+
+- [Programming with dplyr](https://dplyr.tidyverse.org/articles/programming.html)
+
 #### "The R Inferno"
 
 by Patrick Burns, 2011-04-30
