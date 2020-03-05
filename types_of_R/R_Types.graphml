@@ -547,7 +547,7 @@ either/or<y:LabelModel>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="319.99999999999994" x="-8.099999999999994" y="802.625"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:Fill color="#C0C0C0" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="italic" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="205.93359375" x="57.03320312499997" y="6.359375">heterogeneous type<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -563,7 +563,7 @@ either/or<y:LabelModel>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="71.41010118406882" width="319.99999999999994" x="-8.099999999999994" y="842.625"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:Fill color="#C0C0C0" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="313.791015625" x="4.0" y="19.736300592034468">▶ a container of things, where the things may have
    different "storage modes"</y:NodeLabel>
@@ -607,7 +607,7 @@ systems<y:LabelModel>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="319.99999999999994" x="-8.099999999999994" y="1368.781250000001"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:Fill color="#C0C0C0" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="italic" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="196.978515625" x="61.51074218749997" y="6.359375">homogeneous type<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -623,7 +623,7 @@ systems<y:LabelModel>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.999999999999886" width="319.99999999999994" x="-8.099999999999994" y="1408.781250000001"/>
-          <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
+          <y:Fill color="#C0C0C0" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="301.66796875" x="4.0" y="10.53125">▶ a container of things, where the things all have
    the same "storage mode"</y:NodeLabel>
