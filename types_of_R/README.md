@@ -16,8 +16,10 @@ Let's find out more.
 
 References:
 
-- Advanced R, first edition
-- Advanced R, second edition
-- R help pages
+
+- ["Advanced R", First Edition](http://adv-r.had.co.nz)
+  - [Data structures](http://adv-r.had.co.nz/Data-structures.html)
+- ["Advanced R", Second Edition](https://adv-r.hadley.nz/)
 - [R: NA vs NULL](https://www.r-bloggers.com/r-na-vs-null/) by Christopher Brown at _R-bloggers_
+- [The R manuals](https://cran.r-project.org/manuals.html)
 
