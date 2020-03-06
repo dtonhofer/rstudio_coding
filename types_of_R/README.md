@@ -20,6 +20,8 @@ References:
 - ["Advanced R", First Edition](http://adv-r.had.co.nz)
   - [Data structures](http://adv-r.had.co.nz/Data-structures.html)
 - ["Advanced R", Second Edition](https://adv-r.hadley.nz/)
+  - [Object-oriented programming](https://adv-r.hadley.nz/oo.html)
+  - [Base types](https://adv-r.hadley.nz/base-types.html)
 - [R: NA vs NULL](https://www.r-bloggers.com/r-na-vs-null/) by Christopher Brown at _R-bloggers_
 - [The R manuals](https://cran.r-project.org/manuals.html)
 
