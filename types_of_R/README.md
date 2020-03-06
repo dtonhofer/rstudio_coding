@@ -10,7 +10,7 @@ a lot of warts and special cases. The naming is confusing and nonstandard.
 
 Let's find out more!
 
-- [Here is an unfinished overview diagram (PNG)](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/types_of_R/R_Types.png)
+- [Here is an overview diagram (PNG)](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/types_of_R/R_Types.png) (more or less finished)
    - [... and the associated GraphML file](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/types_of_R/R_Types.graphml)
 - [Here is some unfinished code to test an "R thing"](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/types_of_R/jungle.r)
 
