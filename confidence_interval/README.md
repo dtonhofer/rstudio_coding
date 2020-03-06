@@ -2,10 +2,10 @@
 
 ## Illustration to explain reasoning behind the construction of "Confidence Intervals".
 
-![Confidence interval pipeline graph](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/diagrams/confidence_interval_pipeline.png).
+![Confidence interval pipeline graph](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/diagrams/confidence_interval_pipeline.png).
 
 The above has been edited with yEd (a bit basic but sufficient). Here is the
-![graphml raw file](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/diagrams/confidence_interval_pipeline.graphml).
+![graphml raw file](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/diagrams/confidence_interval_pipeline.graphml).
 
 ## Plots based on the "ames" dataset
 
