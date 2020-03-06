@@ -13,17 +13,17 @@ The above has been edited with yEd (a bit basic but sufficient). Here is the
 
 Population statistics are indicated.
 
-![Histogram, whole population](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/plots/histogram_of_ames_area_randvar_over_population.png)
+![Histogram, whole population](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/histogram_of_ames_area_randvar_over_population.png)
 
-![PDF, whole population](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/plots/pdf_of_ames_area_randvar_over_population.png)
+![PDF, whole population](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/pdf_of_ames_area_randvar_over_population.png)
 
 ### Histogram and PDF over a single sample
 
 Sample statistics are indicated.
 
-![Histogram, single sample](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/plots/histogram_of_ames_area_randvar_for_single_sample.png)
+![Histogram, single sample](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/histogram_of_ames_area_randvar_for_single_sample.png)
 
-![PDF, single sample](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/plots/pdf_of_ames_area_randvar_for_single_sample.png)
+![PDF, single sample](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/pdf_of_ames_area_randvar_for_single_sample.png)
 
 ### Histogram of means computed from many samples
 
@@ -32,7 +32,7 @@ Sampling statistics are indicated.
 Note that the overlaid Gaussian is the "limit Gaussian" postulated by the CLT, centered at the population mean. It is
 not centered at the sample mean (the red line enclosed by the dashed-blue 1-stddev interval)!
 
-![Histogram of sample statistics](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/course_2/confidence_interval/plots/histogram_of_mean_over_samples_of_ames_area_randvar.png)
+![Histogram of sample statistics](https://raw.githubusercontent.com/dtonhofer/rstudio_coding/master/confidence_interval/plots/histogram_of_mean_over_samples_of_ames_area_randvar.png)
 
 ## Empirically testing the confidence interval
 
@@ -88,7 +88,7 @@ empiricially_test_confidence_interval(sample_size=100, confidence=0.99, trial_co
 
 ## Code to generate plots
 
-- Basis: [confidence_interval_base.r](https://github.com/dtonhofer/rstudio_coding/blob/master/course_2/confidence_interval/code/confidence_interval_base.r)
-- Functions to create the plots, calls the above: [confidence_interval_top.r](https://github.com/dtonhofer/rstudio_coding/blob/master/course_2/confidence_interval/code/confidence_interval_top.r)
-- The code to execute in R/RStudio, loads and calls the above: [confidence_interval_cmd.r](https://github.com/dtonhofer/rstudio_coding/blob/master/course_2/confidence_interval/code/confidence_interval_cmd.r)
+- Basis: [confidence_interval_base.r](https://github.com/dtonhofer/rstudio_coding/blob/master/confidence_interval/code/confidence_interval_base.r)
+- Functions to create the plots, calls the above: [confidence_interval_top.r](https://github.com/dtonhofer/rstudio_coding/blob/master/confidence_interval/code/confidence_interval_top.r)
+- The code to execute in R/RStudio, loads and calls the above: [confidence_interval_cmd.r](https://github.com/dtonhofer/rstudio_coding/blob/master/confidence_interval/code/confidence_interval_cmd.r)
 
