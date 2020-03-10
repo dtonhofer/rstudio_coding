@@ -1,6 +1,8 @@
 # RDBMS-like operations
 
-**TODO: Do this in SQL**
+**TODO: This solution returns nothing for the input 'no movies' but should return all actors**
+
+**TODO: Add unit test code.**
 
 Inspired from a problem at StackOverflow: [Find mutual element in different facts in swi-prolog](https://stackoverflow.com/questions/60582295/find-mutual-element-in-different-facts-in-swi-prolog).
 
