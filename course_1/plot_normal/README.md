@@ -1,6 +1,6 @@
 # Plot a Normal Distribution
 
-Make sure you have loaded the tinyverse.
+Make sure you have loaded the tidyverse libraries.
 
 ````
 library(tidyverse)
@@ -9,7 +9,7 @@ library(tidyverse)
 Define the function to plot a Normal.
 
 Just dump this code into the RStudio console, or better write it to a file
-called for example `plot_normal.r` and load it into RStudio by commanding
+called for example `plot_normal.r` and load it into RStudio by issuing the command
 `source("plot_normal.r")`.
 
 ````
@@ -68,7 +68,7 @@ round_it <- function(value) {
 }
 ````
 
-Plot in RStudio.
+Plot in RStudio using:
 
 ````
 > plot_normal(-10,10.0,3)
